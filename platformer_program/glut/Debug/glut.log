@@ -1,2 +1,74 @@
-﻿  glut.vcxproj -> C:\Users\ricsi\Google Drive\Projektek\Platformer\platformer\platformer_program\Debug\glut.exe
-  glut.vcxproj -> C:\Users\ricsi\Google Drive\Projektek\Platformer\platformer\platformer_program\Debug\glut.pdb (Partial PDB)
+﻿  textures.cpp
+  shapes.cpp
+c:\users\ricsi\documents\github\platformer-game\platformer_program\glut\shapes.cpp(112): warning C4838: conversion from 'double' to 'float' requires a narrowing conversion
+c:\users\ricsi\documents\github\platformer-game\platformer_program\glut\shapes.cpp(112): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\ricsi\documents\github\platformer-game\platformer_program\glut\shapes.cpp(210): warning C4838: conversion from 'double' to 'GLfloat' requires a narrowing conversion
+c:\users\ricsi\documents\github\platformer-game\platformer_program\glut\shapes.cpp(210): warning C4244: 'initializing': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\ricsi\documents\github\platformer-game\platformer_program\glut\shapes.cpp(211): warning C4838: conversion from 'double' to 'GLfloat' requires a narrowing conversion
+c:\users\ricsi\documents\github\platformer-game\platformer_program\glut\shapes.cpp(211): warning C4244: 'initializing': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\ricsi\documents\github\platformer-game\platformer_program\glut\shapes.cpp(212): warning C4838: conversion from 'double' to 'GLfloat' requires a narrowing conversion
+c:\users\ricsi\documents\github\platformer-game\platformer_program\glut\shapes.cpp(212): warning C4244: 'initializing': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\ricsi\documents\github\platformer-game\platformer_program\glut\shapes.cpp(213): warning C4838: conversion from 'double' to 'GLfloat' requires a narrowing conversion
+c:\users\ricsi\documents\github\platformer-game\platformer_program\glut\shapes.cpp(213): warning C4244: 'initializing': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\ricsi\documents\github\platformer-game\platformer_program\glut\shapes.cpp(214): warning C4838: conversion from 'double' to 'GLfloat' requires a narrowing conversion
+c:\users\ricsi\documents\github\platformer-game\platformer_program\glut\shapes.cpp(214): warning C4244: 'initializing': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\ricsi\documents\github\platformer-game\platformer_program\glut\shapes.cpp(215): warning C4838: conversion from 'double' to 'GLfloat' requires a narrowing conversion
+c:\users\ricsi\documents\github\platformer-game\platformer_program\glut\shapes.cpp(215): warning C4244: 'initializing': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\ricsi\documents\github\platformer-game\platformer_program\glut\shapes.cpp(216): warning C4838: conversion from 'double' to 'GLfloat' requires a narrowing conversion
+c:\users\ricsi\documents\github\platformer-game\platformer_program\glut\shapes.cpp(216): warning C4244: 'initializing': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\ricsi\documents\github\platformer-game\platformer_program\glut\shapes.cpp(217): warning C4838: conversion from 'double' to 'GLfloat' requires a narrowing conversion
+c:\users\ricsi\documents\github\platformer-game\platformer_program\glut\shapes.cpp(217): warning C4244: 'initializing': conversion from 'double' to 'GLfloat', possible loss of data
+  print.cpp
+  interaction.cpp
+c:\users\ricsi\documents\github\platformer-game\platformer_program\glut\interaction.cpp(62): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\ricsi\documents\github\platformer-game\platformer_program\glut\interaction.cpp(73): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+c:\users\ricsi\documents\github\platformer-game\platformer_program\glut\interaction.cpp(102): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+c:\users\ricsi\documents\github\platformer-game\platformer_program\glut\interaction.cpp(104): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  initialization.cpp
+  glWindowPos.cpp
+c:\users\ricsi\documents\github\platformer-game\platformer_program\glut\glwindowpos.cpp(42): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\ricsi\documents\github\platformer-game\platformer_program\glut\glwindowpos.cpp(44): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\ricsi\documents\github\platformer-game\platformer_program\glut\glwindowpos.cpp(46): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\ricsi\documents\github\platformer-game\platformer_program\glut\glwindowpos.cpp(48): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\ricsi\documents\github\platformer-game\platformer_program\glut\glwindowpos.cpp(50): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\ricsi\documents\github\platformer-game\platformer_program\glut\glwindowpos.cpp(51): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+c:\users\ricsi\documents\github\platformer-game\platformer_program\glut\glwindowpos.cpp(53): warning C4244: 'argument': conversion from 'const int' to 'float', possible loss of data
+c:\users\ricsi\documents\github\platformer-game\platformer_program\glut\glwindowpos.cpp(55): warning C4244: 'argument': conversion from 'const double' to 'float', possible loss of data
+c:\users\ricsi\documents\github\platformer-game\platformer_program\glut\glwindowpos.cpp(57): warning C4244: 'argument': conversion from 'const int' to 'float', possible loss of data
+c:\users\ricsi\documents\github\platformer-game\platformer_program\glut\glwindowpos.cpp(59): warning C4244: 'argument': conversion from 'const double' to 'float', possible loss of data
+c:\users\ricsi\documents\github\platformer-game\platformer_program\glut\glwindowpos.cpp(61): warning C4244: 'argument': conversion from 'const int' to 'float', possible loss of data
+c:\users\ricsi\documents\github\platformer-game\platformer_program\glut\glwindowpos.cpp(63): warning C4244: 'argument': conversion from 'const double' to 'float', possible loss of data
+  globals.cpp
+  fatal.cpp
+  error.cpp
+  draw.cpp
+c:\users\ricsi\documents\github\platformer-game\platformer_program\glut\draw.cpp(19): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\users\ricsi\documents\github\platformer-game\platformer_program\glut\draw.cpp(29): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+c:\users\ricsi\documents\github\platformer-game\platformer_program\glut\draw.cpp(43): warning C4838: conversion from 'double' to 'GLfloat' requires a narrowing conversion
+c:\users\ricsi\documents\github\platformer-game\platformer_program\glut\draw.cpp(43): warning C4244: 'initializing': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\ricsi\documents\github\platformer-game\platformer_program\glut\draw.cpp(44): warning C4838: conversion from 'double' to 'GLfloat' requires a narrowing conversion
+c:\users\ricsi\documents\github\platformer-game\platformer_program\glut\draw.cpp(44): warning C4244: 'initializing': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\ricsi\documents\github\platformer-game\platformer_program\glut\draw.cpp(45): warning C4838: conversion from 'double' to 'GLfloat' requires a narrowing conversion
+c:\users\ricsi\documents\github\platformer-game\platformer_program\glut\draw.cpp(45): warning C4244: 'initializing': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\ricsi\documents\github\platformer-game\platformer_program\glut\draw.cpp(46): warning C4838: conversion from 'double' to 'GLfloat' requires a narrowing conversion
+c:\users\ricsi\documents\github\platformer-game\platformer_program\glut\draw.cpp(46): warning C4244: 'initializing': conversion from 'double' to 'GLfloat', possible loss of data
+c:\users\ricsi\documents\github\platformer-game\platformer_program\glut\draw.cpp(104): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+  display.cpp
+  animate.cpp
+c:\users\ricsi\documents\github\platformer-game\platformer_program\glut\animate.cpp(13): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\ricsi\documents\github\platformer-game\platformer_program\glut\animate.cpp(30): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\ricsi\documents\github\platformer-game\platformer_program\glut\animate.cpp(52): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\ricsi\documents\github\platformer-game\platformer_program\glut\animate.cpp(103): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\ricsi\documents\github\platformer-game\platformer_program\glut\animate.cpp(104): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\ricsi\documents\github\platformer-game\platformer_program\glut\animate.cpp(114): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\ricsi\documents\github\platformer-game\platformer_program\glut\animate.cpp(115): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\ricsi\documents\github\platformer-game\platformer_program\glut\animate.cpp(126): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\ricsi\documents\github\platformer-game\platformer_program\glut\animate.cpp(127): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\ricsi\documents\github\platformer-game\platformer_program\glut\animate.cpp(137): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\ricsi\documents\github\platformer-game\platformer_program\glut\animate.cpp(138): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  014.cpp
+c:\users\ricsi\documents\github\platformer-game\platformer_program\glut\014.cpp(28): warning C4101: 'vKey': unreferenced local variable
+  Generating Code...
+  LINK : C:\Users\ricsi\Documents\GitHub\Platformer-game\platformer_program\Debug\glut.exe not found or not built by the last incremental link; performing full link
+  glut.vcxproj -> C:\Users\ricsi\Documents\GitHub\Platformer-game\platformer_program\Debug\glut.exe
+  glut.vcxproj -> C:\Users\ricsi\Documents\GitHub\Platformer-game\platformer_program\Debug\glut.pdb (Partial PDB)
