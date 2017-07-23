@@ -31,7 +31,7 @@ double ugras(double t)
 
 	return 0;
 }
-//ezt jobban megcsinálni
+//TODO: make this better
 void fougras()
 {
 	
@@ -69,16 +69,11 @@ int jobbrabalra = 0;
 
 
 
-
-
 void timer(int value)
-{	//ide kell írni a cuccokat animáláshoz
+{	//write here stuff for animation
 	fougras();
 
-	//sebesség
-	
-	
-	
+	//velocity
 	if (space <= 100) speed = 11.8;
 	if (space <= 90) speed = 9.8;
 	if (space <= 80) speed = 8;
@@ -90,9 +85,9 @@ void timer(int value)
 	if (space <= 20) speed = 1.4;
 	if (space <= 10) speed = 1;
 	if (space == 100) cout << "YOU WON" << endl;
-	//van-e lefel mozgás
+	//is there up-down movement
 	int lefel = 0;
-	//van-e jobbra balra mozgás
+	//is there left-right movement
 	bool lenyomva = false;
 	
 	//up
@@ -180,7 +175,7 @@ void timer(int value)
 		ecZ = 0;
 	}
 
-	//pontosítani a határokat!!!!
+	//TODO: make bounds more exact
 	if (cubes[10000].tsr.t.y < 1.1 && ((cubes[10000].tsr.t.z <= -18 || cubes[10000].tsr.t.z >= 18) || (cubes[10000].tsr.t.x <= -18 || cubes[10000].tsr.t.x >= 18))) {
 		
 		if (space > highscore)
