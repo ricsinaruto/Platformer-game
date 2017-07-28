@@ -11,7 +11,7 @@
 */
 void drawCube(cube_s cb)
 {
-	//A 0,0,0 molekula nem használható!!! (nem fog kirajzolódni)
+	//the molecule at coordinates 0;0;0 can not be used!!! (it won't be drawn)
 	if (cb.tsr.hely.x >0 || cb.tsr.hely.y>0 || cb.tsr.hely.z>0)
 	{
 		cube(cb.tsr.t.x, cb.tsr.t.y, cb.tsr.t.z,
@@ -22,7 +22,7 @@ void drawCube(cube_s cb)
 
 void drawPlatform(platform_s cb)
 {
-	//A 0,0,0 molekula nem használható!!! (nem fog kirajzolódni)
+	//the molecule at coordinates 0;0;0 can not be used!!! (it won't be drawn)
 	
 		negyzetracs(cb.tsr.t.x, cb.tsr.t.y, cb.tsr.t.z,
 			cb.tsr.s.x, cb.tsr.s.y, cb.tsr.s.z,

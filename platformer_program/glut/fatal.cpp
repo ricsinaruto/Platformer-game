@@ -1,6 +1,6 @@
 #include "screencasts.h"
 
-//vmi error kezelõ cucc
+//error handling stuff
 void fatal(const char* format, ...)
 {
 	va_list args;

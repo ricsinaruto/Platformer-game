@@ -2,7 +2,7 @@
 using namespace std;
 
 
-//egyeneletkhez paraméterek
+// parameters for equations
 double dt = 0.01;
 double t = 0;
 double K = -0.07;
@@ -20,13 +20,13 @@ double Cp2 = 153;
 
 
 
-// q,w,e billentyûk lenyomásakor a mozgatások és forgások kezelése
+// handle movement and rotation
 void windowPmotion(int x, int y)
 {
 	mouseX = x;
 	mouseY = y;
 	
-	//fény forgatása
+	//light rotation
 	if (Shift == "light")
 	{
 		if (mouseBtnPressed == "Left")
@@ -48,7 +48,7 @@ void windowPmotion(int x, int y)
 		}
 	}
 
-	//struktúra forgatása
+	//structure rotation
 	else if (Shift=="rotation")
 	{
 		if (mouseBtnPressed == "Left")
@@ -74,7 +74,7 @@ void windowPmotion(int x, int y)
 		}
 	}
 
-	//struktúra mozgatása
+	//structure movement
 	else if (Shift=="movement")
 	{
 		if (mouseBtnPressed == "Left")
@@ -105,7 +105,7 @@ void windowPmotion(int x, int y)
 	redisplayAll();
 }
 
-//zoomolás
+//zoom
 void mouseWheel(int scroll, int dir, int x, int y)
 {
 	dim -= 5*(double)dir;
@@ -114,7 +114,7 @@ void mouseWheel(int scroll, int dir, int x, int y)
 
 
 
-//egér gombok lenyomásának kezelése
+//handle mouse presses
 void windowMouse(int btn, int state, int x, int y)
 {
 	if (btn == GLUT_LEFT_BUTTON) mouseBtnPressed = "Left";

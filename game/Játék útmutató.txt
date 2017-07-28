@@ -1,8 +1,0 @@
-w-a-s-d vel tudsz mozogni, ha jobb klikket lenyomod akkor forgatod a kamerát (nem kell nyomva tartani), ha lenyomod a bal klikket akkor fixálod a kamerát
-space-el ugrasz
-játék lényege, hogy minél többször ugorj, úgyhogy mindig a platformra landolsz
-miközben a w-a-s-d közül valamelyik folyamatosan le van nyomva (tehát folyamatosan kell mozogni)
-10 szint van, egyre gyorsabb lesz a mozgási sebesség
-bal alul láthatóak a pontok a szint, meg a high score
-
-tehát ha platformon kívülre landolsz akkor 0-zódik a pontszám, vagy ha nem mozogsz

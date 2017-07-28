@@ -3,7 +3,7 @@
 
 #define LEN 8192
 
-/* ezek kellenek karakterek megjelenítéséhez a képernyõn */
+/* these are for writing characters on screen */
 
 void printv(va_list args, const char* format)
 {

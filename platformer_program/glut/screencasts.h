@@ -44,7 +44,7 @@
 /*  Structs  */
 #include "structs.h" /* common structs */
 
-#include "glWindowPos.h"	//vmi plusz cucc ami kell nem tom már mihez
+#include "glWindowPos.h"	//stuff to handle writing characters on the window
 
 
 /*GLOBALS*/
@@ -93,34 +93,34 @@ extern int toggleAnimation;  /* toggle animation */
 							 /*  Objects  */
 extern cube_s cubes[50000]; /* cube objects */
 extern platform_s platform[100];
-extern molekula dronpa[38][38][38]; //molekula class 36*36*36os elrendezés
+extern molekula dronpa[38][38][38]; //molecule class forming 36*36*36 grid
 
 //my own shit
-extern char *mouseBtnPressed;	//left vagy right
-extern char *mouseState;		//up vagy down
-extern char *Shift;				//forgás/mozgás fajtája 
-extern double jobbx;			//asszem obsolete
-extern int mouseX, mouseY;		//a q,w,e-hez kell
-extern int xcoord, ycoord;		//a q,w,e-hez kell
-extern int th2, ph2;			//forgatáshoz kell
-extern int lightTh2, lightPh2;	//fény forgatáshoz kell
-extern double fely, timed;		//asszem obsolete
-extern double ecX2, ecY2;		//x és y menti mozgatáshoz kell
+extern char *mouseBtnPressed;	//left or right
+extern char *mouseState;		//up or down
+extern char *Shift;				//type of movement or rotation
+extern double jobbx;			//obsolete
+extern int mouseX, mouseY;		//needed for q,w,e keys
+extern int xcoord, ycoord;		//needed for q,w,e keys
+extern int th2, ph2;			//needed for rotation
+extern int lightTh2, lightPh2;	//needed for lighting
+extern double fely, timed;		//obsolete
+extern double ecX2, ecY2;		//needed for movement along x and y axis
 extern int main_window;			//obsolete
-extern int szamok[17];			//tartalmazza a beírt molekula koordinátáit, ezt használom a kimenetek megadására is
-extern int szamlalo;			//számolja, hogy hány szám billentyû lett lenyomva, ha értéke 3 nullázódik
-extern char *enter;				//enter lenyomva
-extern char *valto;				//ez váltja az entert
+extern int szamok[17];			//contatins the coordinate of the specified molecule, I also use this for the user to specify output bits
+extern int szamlalo;			//counts how many numbers have been pressed, if it reaches 3 it goes to 0
+extern char *enter;				//is enter pressed?
+extern char *valto;				//switching the enter key
 extern char *fel;
 extern int kimenetek_szama;
 extern int bemenetek_szama;
 extern int kimenetek[7][16];
 extern int h1[46656], h2[46656], h3[46656];
 extern int cubesy;
-extern int space;				//ez számolja hogy hányszor ugrott fel
+extern int space;				//counts the number of jumps
 
 extern double fely, timed;
-extern double speed;			//mozgási sebesség
+extern double speed;			//movement speed
 extern int highscore;
 
 #endif

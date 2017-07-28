@@ -136,6 +136,7 @@ void timer(int value)
 		jobbrabalra++;
 	}
 
+	// these are the win states
 	if ((lefel == 2) || (jobbrabalra == 2 && lefel == 0))
 	{
 		if (space > highscore)

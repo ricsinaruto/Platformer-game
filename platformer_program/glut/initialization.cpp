@@ -37,7 +37,7 @@ void initializeGlobals(void)
 	/* TEXTURES */
 	currentTexture = TEX_DEFAULT;
 
-	//ugyanazok mint screencasts.h-ban
+	//same variables as screencasts.h
 	toggleAnimation = DEF_ANIMATE;
 	mouseBtnPressed = "Press the left mouse button before pressing the right one when using the q,w,e keys!";
 	mouseState = "";
@@ -87,7 +87,6 @@ void initializeObjs(void)
 	cubes[10000] = { { { 0, 1, 0 },{ 1,1,1 },{ 90,0,0 } ,{ 1,1,1} } };
 	platform[0] = { {{0,0,0},{1,1,1},{90,0,0}, {0,0,0},{36,0,0}} };
 
-	//ha beírunk 3 koordinátát ez lefut és egy piros vagy zöld (térrel terhelt) kockát létrehozz az adott koordinátára
 	
 }
 

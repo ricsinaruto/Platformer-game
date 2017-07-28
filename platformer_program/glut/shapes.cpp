@@ -13,8 +13,7 @@
 */
 void cube(double x, double y, double z,double dx, double dy, double dz,double th,int i,int j,int k)
 {
-	//if (dronpa[i+1][j+1][k+1].ter == true)  glColor4f(0, 1, 0, 1);	//zöld szín ha térrel terhelt molekulát adunk meg
-	//else glColor4f(1, 0, 0, 1);		//alap piros szín
+
 
 	/*  Cube vertices */
 	GLfloat vertA[3] = { 1, 1, 1 };
@@ -158,7 +157,7 @@ void vertex(double th, double ph)
 	glVertex3d(x, y, z);
 }
 
-//koordináták printelése az adott helyre, ezt most nem használjuk
+//print coordinates
 void szoveg(int hely,double x, double y, double z,double dx, double dy, double dz,double th)
 {
 	/*  Cube vertices */
@@ -180,7 +179,7 @@ void szoveg(int hely,double x, double y, double z,double dx, double dy, double d
 	
 }
 
-//ugyanaz mint a cube függvény, csak kisebb fekete kockákat rajzol
+//same as cube function for smaller black cubes
 void negyzetracs(double x, double y, double z,double dx, double dy, double dz,double th,int i, int j,int k, double s, int ii, int kk)
 {
 	
