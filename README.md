@@ -1,6 +1,7 @@
 # Platformer-game
 
 This a simple 3D game I made in OpenGL. You can download the .rar archive to try it out directly or compile the Visual Studio project.
+I used [this](https://github.com/davidwparker/opengl-screencasts-2) tutorial code to get started with an OpenGL environment.
 
 ## Instructions
 * You can move with w-a-s-d, if you press the right mouse button you can rotate the camera (you don't have to keep it pressed), if you press left mouse button then you fixate the camera. 
