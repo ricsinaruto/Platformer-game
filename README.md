@@ -1,6 +1,6 @@
 # Platformer-game
 
-This a simple 3D game I made in OpenGL. You can download the .rar archive to try it out directly or compile the Visual Studio project (you will need [freeglut](http://freeglut.sourceforge.net/index.php#download) library and include files in order to this.
+This a simple 3D game I made in OpenGL. You can download the .rar archive to try it out directly or compile the Visual Studio project (you will need [freeglut](http://freeglut.sourceforge.net/index.php#download) library and include files in order to this).
 I used [this](https://github.com/davidwparker/opengl-screencasts-2) tutorial code to get started with an OpenGL environment.
 
 ## Instructions
